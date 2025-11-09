@@ -6,30 +6,30 @@ class PkwTest {
     @Test
     void testLosTrue() {
         Pkw auto = new Pkw(10.0, 5.0, 2026);
-        assertTrue(auto.mozheYikhaty());
+        assertTrue(auto.los());
     }
     @Test
     void testLosFalse() {
         Pkw auto = new Pkw(0.0, 5.0, 2026);
-        assertFalse(auto.mozheYikhaty());
+        assertFalse(auto.los());
     }
     @Test
     void testTuvTrue() {
         int currentYear = java.time.LocalDate.now().getYear();
         Pkw auto = new Pkw(10.0, 5.0, currentYear + 1);
-        assertTrue(auto.dopushchenaDoEkspluatatsii());
+        assertTrue(auto.tuvbis());
     }
     @Test
     void testTuvFalse() {
         int currentYear = java.time.LocalDate.now().getYear();
         Pkw auto = new Pkw(10.0, 5.0, currentYear - 1);
-        assertFalse(auto.dopushchenaDoEkspluatatsii());
+        assertFalse(auto.tuvbis());
     }
 
     @Test
     void testReichweite() {
         Pkw auto = new Pkw(50.0, 10.0, 2026);
-        assertEquals(500.0, auto.maksymalnaVidstan());
+        assertEquals(500.0, auto.reichweite());
     }
 
     @Test
