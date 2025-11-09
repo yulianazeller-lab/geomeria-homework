@@ -1,5 +1,6 @@
 package speakdragonwork;
 
+
 import java.util.Scanner;
 
 public class Main {

@@ -40,7 +40,7 @@ public class Main {
                     break;
                 case 3:
                     int max = array[0];
-                    for (int num : array) {
+                    for (int num: array) {
                         if (num > max) {
                             max = num;
                         }
