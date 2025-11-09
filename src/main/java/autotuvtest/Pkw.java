@@ -12,19 +12,15 @@ public class Pkw {
         this.verbrauch = verbrauch;
         this.tuvbis = tuvbis;
     }
-
     public boolean los() {
         return tankvolume > 0;
     }
-
     public boolean tuvbis() {
         return LocalDate.now().getYear() <= tuvbis;
     }
-
     public double reichweite() {
         return verbrauch == 0 ? 0 : (tankvolume / verbrauch) * 100;
     }
-
     public String info() {
         return "Бак: " + tankvolume + " л, Витрата: " + verbrauch +
                 " л/100км, Техогляд до: " + tuvbis;
