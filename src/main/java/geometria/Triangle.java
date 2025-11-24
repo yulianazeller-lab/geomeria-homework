@@ -13,7 +13,6 @@ public class Triangle extends Shape {
         double s = (a + b + c) / 2; // півпериметр
         return Math.sqrt(s * (s - a) * (s - b) * (s - c)); // формула Герона
     }
-
     @Override
     public double getPerimeter() {
         return a + b + c;

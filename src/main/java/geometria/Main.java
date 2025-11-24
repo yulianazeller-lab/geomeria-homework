@@ -7,6 +7,7 @@ public class Main {
         Shape trapezoid = new Trapezoid(5, 7, 3, 4,4);
         Shape parallelogram = new Parallelogram(9.0, 5.0,6.0);
         Shape deltoid = new Deltoid(6, 9,4,5);
+
         System.out.println("Площа круга: " + circle.getArea() + ", Периметр: " + circle.getPerimeter());
         System.out.println("Площа трикутника: " + triangle.getArea() + ", Периметр: " + triangle.getPerimeter());
         System.out.println("Площа трапеції: " + trapezoid.getArea() + ", Периметр: " + trapezoid.getPerimeter());

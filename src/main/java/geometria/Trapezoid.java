@@ -22,5 +22,4 @@ public class Trapezoid extends Shape {
     public double getPerimeter() {
         return base1 + base2 + side1 + side2;
     }
-
 }
