@@ -1,15 +1,22 @@
 package geometria;
 
-class Parallelogram extends Shape {
+public class Parallelogram extends Shape {
     private double base;
     private double height;
+    private double side;
 
-    public Parallelogram(double base, double height) {
+    public Parallelogram(double base, double height,  double side) {
         this.base = base;
         this.height = height;
+        this.side = side;
     }
     @Override
     public double getArea() {
         return base * height;
     }
+    @Override
+    public double getPerimeter() {
+        return 2 * (base + side);
+    }
+
 }
