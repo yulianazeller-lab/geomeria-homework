@@ -10,7 +10,6 @@ public class Stack implements Stackable {
         this.stackArray = new int[maxSize];
         this.top = -1;
     }
-
     @Override
     public boolean isEmpty() {
         return top == -1;

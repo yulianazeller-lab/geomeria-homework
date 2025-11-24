@@ -6,4 +6,5 @@ public interface Stackable {
     void push(int element);
     int pop();
     int peek();
+
 }
