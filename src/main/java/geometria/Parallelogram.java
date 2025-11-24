@@ -4,7 +4,6 @@ public class Parallelogram extends Shape {
     private double base;
     private double height;
     private double side;
-
     public Parallelogram(double base, double height,  double side) {
         this.base = base;
         this.height = height;

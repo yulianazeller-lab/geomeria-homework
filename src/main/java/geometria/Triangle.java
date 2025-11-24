@@ -8,7 +8,6 @@ public class Triangle extends Shape {
         this.b = b;
         this.c = c;
     }
-
     @Override
     public double getArea() {
         double s = (a + b + c) / 2; // півпериметр

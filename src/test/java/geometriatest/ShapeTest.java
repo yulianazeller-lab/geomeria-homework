@@ -33,5 +33,6 @@ public class ShapeTest {
         Shape deltoid = new Deltoid(6, 9, 4, 5);
         double perimeter = ((Deltoid) deltoid).getPerimeter();
         assertEquals(18.0, perimeter, 0.0001);
+
     }
 }

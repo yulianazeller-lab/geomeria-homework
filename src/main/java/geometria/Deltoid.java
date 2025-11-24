@@ -5,7 +5,6 @@ public class Deltoid extends Shape {
     private double d2;
     private double sideA, sideB;
 
-
     public Deltoid(double d1, double d2, double sideA, double sideB)
     {
         this.d1 = d1;
