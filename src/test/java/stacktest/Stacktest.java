@@ -1,10 +1,12 @@
 package stacktest;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.*;
+
+import stackwork32.Stack;
 import stackwork32.StackOverflowException;
 import stackwork32.StackUnderflowException;
 
-import stackwork32.Stack;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
